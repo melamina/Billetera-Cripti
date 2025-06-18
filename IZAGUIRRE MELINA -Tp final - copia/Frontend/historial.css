@@ -1,0 +1,66 @@
+body {
+  background-color: #FFF9F2;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-image: url('CriptiFondoLogin.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+#bienvenida {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FFFCF6;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+thead {
+  background-color: #D4F12D;
+  color: #000;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #FFF0FA;
+}
+
+a {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #FF7DEB;
+  color: #000;
+  font-weight: bold;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #ff59d6;
+}

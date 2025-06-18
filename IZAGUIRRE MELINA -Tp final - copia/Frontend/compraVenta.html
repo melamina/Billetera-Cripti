@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cripti - Billetera</title>
+  <link rel="stylesheet" href="compraVenta.css" />
+</head>
+<body>
+  <div class="logo">
+    <div class="logo-box"></div>
+    <span>CRIPTI</span>
+      <link rel="stylesheet" href="compraVenta.css" />
+  </div>
+
+  <div class="container">
+    <div class="bienvenida"></div>
+
+    <div class="titulo">
+      <h1>TU BILLETERA CRIPTI</h1>
+    </div>
+
+    <a href="historial.html" class="historial-btn">HISTORIAL</a>
+
+    <form id="formulario" class="formulario">
+      <label>CRIPTOMONEDA:
+        <select id="Abreviatura">
+          <option value="bitcoin">Bitcoin</option>
+          <option value="usdc">USDC</option>
+          <option value="ethereum">Ethereum</option>
+        </select>
+      </label>
+
+      <label>TIPO:
+        <select id="Accion">
+          <option value="purchase">Compra</option>
+          <option value="sale">Venta</option>
+        </select>
+      </label>
+
+      <label>CANTIDAD:
+        <input type="number" id="cantidad" step="0.00001" required />
+      </label>
+
+      <label>FECHA:
+        <input type="datetime-local" id="Fecha" required />
+      </label>
+
+      <button type="submit">CONFIRMAR</button>
+    </form>
+  </div>
+
+  <script src="compraVenta.js"></script>
+</body>
+

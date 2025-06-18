@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2 a\u00F1o\\Melina\\Exchange\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|d:\\2 a\u00F1o\\melina\\exchange\\exchangemelina\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|d:\\2 a\u00F1o\\melina\\exchange\\exchangemelina\\controllers\\transaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\controllers\\transaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|d:\\2 a\u00F1o\\melina\\exchange\\exchangemelina\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|d:\\2 a\u00F1o\\melina\\exchange\\exchangemelina\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|d:\\2 a\u00F1o\\melina\\exchange\\exchangemelina\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|d:\\2 a\u00F1o\\melina\\exchange\\exchangemelina\\models\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\models\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|d:\\2 a\u00F1o\\melina\\exchange\\exchangemelina\\controllers\\monedascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\controllers\\monedascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ExchangeMelina\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ExchangeMelina\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:31:59.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "ExchangeMelina\\Models\\Transaccion.cs",
+              "ToolTip": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Models\\Transaccion.cs",
+              "RelativeToolTip": "ExchangeMelina\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:27:37.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Moneda.cs",
+              "DocumentMoniker": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Models\\Moneda.cs",
+              "RelativeDocumentMoniker": "ExchangeMelina\\Models\\Moneda.cs",
+              "ToolTip": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Models\\Moneda.cs",
+              "RelativeToolTip": "ExchangeMelina\\Models\\Moneda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:56:13.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ExchangeMelina\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ExchangeMelina\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:50:48.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransaccionsController.cs",
+              "DocumentMoniker": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Controllers\\TransaccionsController.cs",
+              "RelativeDocumentMoniker": "ExchangeMelina\\Controllers\\TransaccionsController.cs",
+              "ToolTip": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Controllers\\TransaccionsController.cs",
+              "RelativeToolTip": "ExchangeMelina\\Controllers\\TransaccionsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:05:06.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MonedasController.cs",
+              "DocumentMoniker": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Controllers\\MonedasController.cs",
+              "RelativeDocumentMoniker": "ExchangeMelina\\Controllers\\MonedasController.cs",
+              "ToolTip": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Controllers\\MonedasController.cs",
+              "RelativeToolTip": "ExchangeMelina\\Controllers\\MonedasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:04:38.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Program.cs",
+              "RelativeDocumentMoniker": "ExchangeMelina\\Program.cs",
+              "ToolTip": "D:\\2 a\u00F1o\\Melina\\Exchange\\ExchangeMelina\\Program.cs",
+              "RelativeToolTip": "ExchangeMelina\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:58:56.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

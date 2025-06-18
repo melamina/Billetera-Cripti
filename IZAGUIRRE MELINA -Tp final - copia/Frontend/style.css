@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #FFF9F2;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  background-image: url('CriptiFondoLogin.png');
+  width: 100%;
+}
+
+.login-box {
+  background-color: #D4F12D;
+  margin-left: 100px;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.login-box label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #FF7DEB;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #ff59d6;
+}
+
+.slogan-box {
+  padding-left: 250px;
+}
+
+.slogan-box h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Logo */
+.logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  z-index: 10;
+}
+
+.logo-box {
+  width: 2rem;
+  height: 2rem;
+ background: linear-gradient(45deg, #00A8FF, #D4F12D);
+  border-radius: 50%;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4rem;
+}

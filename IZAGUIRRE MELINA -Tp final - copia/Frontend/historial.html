@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Historial</title>
+  <link rel="stylesheet" href="historial.css" />
+</head>
+<body>
+  <h1>Historial de transacciones</h1>
+  <p id="bienvenida"></p>
+
+  <table border="1" cellpadding="5" style="border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Abreviatura</th>
+        <th>Action</th>
+        <th>Cantidad</th>
+        <th>Cotizacion</th>
+        <th>Fecha</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-transacciones"></tbody>
+  </table>
+
+  <p><a href="compraVenta.html">Volver</a></p>
+
+  <script src="historial.js"></script>
+  <script>
+    cargarTransacciones();
+  </script>
+</body>
+</html>
+
