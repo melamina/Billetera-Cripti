@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "ContainingType": "ExchangeMelina.Controllers.CriptoController",
+    "Method": "ObtenerCotizacion",
+    "RelativePath": "api/Cripto/{moneda}/{fiat}/{cantidad}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "moneda",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fiat",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "cantidad",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

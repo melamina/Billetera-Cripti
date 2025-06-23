@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iprt6JMeomI=",
+  "dgSpecHash": "H3yiB5J31lA=",
   "success": true,
-  "projectFilePath": "D:\\2 año\\Melina\\Exchange\\ExchangeMelina\\ExchangeMelina.csproj",
+  "projectFilePath": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\ExchangeMelina.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\melam\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\melam\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

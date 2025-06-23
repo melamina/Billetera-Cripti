@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2 año\\Melina\\Exchange\\ExchangeMelina\\ExchangeMelina.csproj": {}
+    "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\ExchangeMelina.csproj": {}
   },
   "projects": {
-    "D:\\2 año\\Melina\\Exchange\\ExchangeMelina\\ExchangeMelina.csproj": {
+    "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\ExchangeMelina.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2 año\\Melina\\Exchange\\ExchangeMelina\\ExchangeMelina.csproj",
+        "projectUniqueName": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\ExchangeMelina.csproj",
         "projectName": "ExchangeMelina",
-        "projectPath": "D:\\2 año\\Melina\\Exchange\\ExchangeMelina\\ExchangeMelina.csproj",
+        "projectPath": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\ExchangeMelina.csproj",
         "packagesPath": "C:\\Users\\melam\\.nuget\\packages\\",
-        "outputPath": "D:\\2 año\\Melina\\Exchange\\ExchangeMelina\\obj\\",
+        "outputPath": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

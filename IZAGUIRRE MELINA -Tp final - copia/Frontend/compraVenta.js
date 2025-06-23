@@ -1,13 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const formulario = document.getElementById("formulario");
 
-  console.log(window.location.origin);
-
   formulario.addEventListener("submit", async (e) => {
     e.preventDefault();
 
     const Abreviatura = document.getElementById("Abreviatura").value;
-    const Action = document.getElementById("accion").value;
+    const Action = document.getElementById("Accion").value;
     const Cantidad = parseFloat(document.getElementById("Cantidad").value);
     const Fecha = document.getElementById("Fecha").value;
     const fiat = "ars";
@@ -18,19 +16,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     try {
-     
-      const response = await fetch(`https://criptoya.com/api/${Abreviatura}/${fiat}/${Cantidad}`);
-      if (!response.ok) {
-      throw new Error("Error al obtener datos");
+      const criptoResponse = await fetch(
+        `http://localhost:5164/api/cripto/${Abreviatura}/${fiat}/${Cantidad}`
+      );
+
+      if (!criptoResponse.ok) {
+        throw new Error("Error al obtener cotización");
       }
-      const data = await response.json();
 
-     let precioUnitario;
+      const data = await criptoResponse.json();
 
-      if (action === "purchase") {
+      let precioUnitario;
+
+      if (Action === "purchase") {
         precioUnitario = data.ask;
       } else {
-       precioUnitario = data.bid;
+        precioUnitario = data.bid;
       }
 
       const Cotizacion = parseFloat((precioUnitario * Cantidad).toFixed(2));
@@ -60,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     } catch (error) {
       console.error("Error:", error);
-      alert("Hubo un problema al registrar la transacción");
+      alert("Ocurrió un error durante la operación");
     }
   });
 });

@@ -48,7 +48,7 @@ namespace ExchangeMelina.Controllers
         // GET: Transaccions/Create
         public IActionResult Create()
         {
-            ViewData["MonedaId"] = new SelectList(_context.Monedas, "Id", "Id");
+            ViewData["MonedaId"] = new SelectList(_context.Monedas, "Id", "NombreMoneda");
             return View();
         }
 

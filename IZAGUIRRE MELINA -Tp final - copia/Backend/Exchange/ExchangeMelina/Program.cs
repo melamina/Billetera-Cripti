@@ -7,7 +7,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: "PermitirFrontend",
         policy =>
         {
-            policy.WithOrigins("http://127.0.0.1:5500") // tu HTML
+            policy.WithOrigins("http://127.0.0.1:5500/index.html" , "http://127.0.0.1:5500/compraVenta.html", "http://127.0.0.1:5500/historial.html") // tu HTML
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
