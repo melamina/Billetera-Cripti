@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|c:\\users\\melam\\desktop\\billetera-cripti\\izaguirre melina -tp final - copia\\backend\\exchange\\exchangemelina\\controllers\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\controllers\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|c:\\users\\melam\\desktop\\billetera-cripti\\izaguirre melina -tp final - copia\\backend\\exchange\\exchangemelina\\controllers\\transaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\controllers\\transaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|c:\\users\\melam\\desktop\\billetera-cripti\\izaguirre melina -tp final - copia\\backend\\exchange\\exchangemelina\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|c:\\users\\melam\\desktop\\billetera-cripti\\izaguirre melina -tp final - copia\\backend\\exchange\\exchangemelina\\controllers\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\controllers\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|c:\\users\\melam\\desktop\\billetera-cripti\\izaguirre melina -tp final - copia\\backend\\exchange\\exchangemelina\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|c:\\users\\melam\\desktop\\billetera-cripti\\izaguirre melina -tp final - copia\\backend\\exchange\\exchangemelina\\controllers\\transaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\controllers\\transaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|c:\\users\\melam\\desktop\\billetera-cripti\\izaguirre melina -tp final - copia\\backend\\exchange\\exchangemelina\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|c:\\users\\melam\\desktop\\billetera-cripti\\izaguirre melina -tp final - copia\\backend\\exchange\\exchangemelina\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|c:\\users\\melam\\desktop\\billetera-cripti\\izaguirre melina -tp final - copia\\backend\\exchange\\exchangemelina\\controllers\\monedascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E97D1A1E-48BD-4A7F-BAF8-9F0623C7AB35}|ExchangeMelina\\ExchangeMelina.csproj|solutionrelative:exchangemelina\\controllers\\monedascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CriptoController.cs",
               "DocumentMoniker": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\Controllers\\CriptoController.cs",
               "RelativeDocumentMoniker": "ExchangeMelina\\Controllers\\CriptoController.cs",
               "ToolTip": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\Controllers\\CriptoController.cs",
               "RelativeToolTip": "ExchangeMelina\\Controllers\\CriptoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T22:18:50.443Z",
               "EditorCaption": ""
@@ -64,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ExchangeMelina\\Controllers\\HomeController.cs",
@@ -77,28 +73,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TransaccionsController.cs",
               "DocumentMoniker": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\Controllers\\TransaccionsController.cs",
               "RelativeDocumentMoniker": "ExchangeMelina\\Controllers\\TransaccionsController.cs",
-              "ToolTip": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\Controllers\\TransaccionsController.cs",
-              "RelativeToolTip": "ExchangeMelina\\Controllers\\TransaccionsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\Controllers\\TransaccionsController.cs*",
+              "RelativeToolTip": "ExchangeMelina\\Controllers\\TransaccionsController.cs*",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T19:05:06.83Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MonedasController.cs",
-              "DocumentMoniker": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\Controllers\\MonedasController.cs",
-              "RelativeDocumentMoniker": "ExchangeMelina\\Controllers\\MonedasController.cs",
-              "ToolTip": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\Controllers\\MonedasController.cs",
-              "RelativeToolTip": "ExchangeMelina\\Controllers\\MonedasController.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAYwJEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:04:38.073Z"
             },
             {
               "$type": "Document",
@@ -108,7 +92,7 @@
               "RelativeDocumentMoniker": "ExchangeMelina\\Program.cs",
               "ToolTip": "C:\\Users\\melam\\Desktop\\Billetera-Cripti\\IZAGUIRRE MELINA -Tp final - copia\\Backend\\Exchange\\ExchangeMelina\\Program.cs",
               "RelativeToolTip": "ExchangeMelina\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACUAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T18:58:56.993Z",
               "EditorCaption": ""

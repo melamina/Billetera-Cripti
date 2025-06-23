@@ -54,7 +54,7 @@ namespace ExchangeMelina.Controllers
 
         // POST: Transaccions/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,MonedaId,Cantidad,Cotizacion,Fecha")] Transaccion transaccion)
         {
             if (ModelState.IsValid)

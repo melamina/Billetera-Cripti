@@ -4,13 +4,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(name: "PermitirFrontend",
-        policy =>
-        {
-            policy.WithOrigins("http://127.0.0.1:5500/index.html" , "http://127.0.0.1:5500/compraVenta.html", "http://127.0.0.1:5500/historial.html") // tu HTML
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
-        });
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+             .AllowAnyHeader()
+             .AllowAnyMethod();
+
+    });
+
+        //{
+        //    policy.WithOrigins("http://127.0.0.1:5500/index.html" , "http://127.0.0.1:5500/compraVenta.html", "http://127.0.0.1:5500/historial.html") // tu HTML
+        //          .AllowAnyHeader()
+        //          .AllowAnyMethod();
+        //});
 });
 
 builder.Services.AddControllers();
@@ -24,7 +30,7 @@ builder.Services.AddDbContext<ExchangeMelina.Data.AppDbContext>(options =>
 
 var app = builder.Build();
 
-app.UseCors("PermitirFrontend");
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 
