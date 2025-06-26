@@ -1,5 +1,5 @@
 function cargarTransacciones() {
-  fetch("http://localhost:5164/Transaccions") 
+  fetch("http://localhost:5164/api/transacciones")
     .then(respuesta => {
       if (!respuesta.ok) {
         throw new Error("No se pudo cargar el historial");
@@ -8,17 +8,16 @@ function cargarTransacciones() {
     })
     .then(transacciones => {
       const tabla = document.getElementById("tabla-transacciones");
-
+      tabla.innerHTML = ""; 
       transacciones.forEach(t => {
         const fila = document.createElement("tr");
 
         fila.innerHTML = `
-          <td>${t.Id}</td>
-          <td>${t.Abreviatura}</td>
-          <td>${t.Action === "purchase" ? "Compra" : "Venta"}</td>
-          <td>${t.Cantidad}</td>
-          <td>$${t.Cotizacion}</td>
-          <td>${formatearFecha(t.Fecha)}</td>
+          <td>${t.abreviatura ?? "N/D"}</td>
+          <td>${t.cotizacion >= 0 ? "Compra" : "Venta"}</td>
+          <td>${t.cantidad}</td>
+          <td>$${t.cotizacion}</td>
+          <td>${formatearFecha(t.fecha)}</td>
         `;
 
         tabla.appendChild(fila);

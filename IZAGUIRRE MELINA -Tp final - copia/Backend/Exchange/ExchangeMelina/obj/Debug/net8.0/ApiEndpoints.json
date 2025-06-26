@@ -24,5 +24,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExchangeMelina.Controllers.CriptoController",
+    "Method": "ObtenerMonedasDesdeDb",
+    "RelativePath": "api/Cripto/monedas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

@@ -12,7 +12,6 @@
   <table border="1" cellpadding="5" style="border-collapse: collapse;">
     <thead>
       <tr>
-        <th>Id</th>
         <th>Abreviatura</th>
         <th>Accion</th>
         <th>Cantidad</th>
@@ -26,9 +25,12 @@
   <p><a href="compraVenta.html">Volver</a></p>
 
   <script src="historial.js"></script>
-  <script>
+ <script>
+  document.addEventListener("DOMContentLoaded", () => {
     cargarTransacciones();
-  </script>
+  });
+</script>
+
 </body>
 </html>
 

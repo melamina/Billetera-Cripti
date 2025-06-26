@@ -55,7 +55,6 @@ body {
   transition: background-color 0.3s ease;
 }
 
-
 .historial-btn:hover {
   background-color: #ff59d6;
 }
@@ -101,5 +100,3 @@ body {
 .formulario button:hover {
   background-color: #ff59d6;
 }
-
-

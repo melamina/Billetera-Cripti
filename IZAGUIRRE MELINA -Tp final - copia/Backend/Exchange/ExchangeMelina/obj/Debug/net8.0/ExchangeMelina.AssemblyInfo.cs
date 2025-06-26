@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExchangeMelina")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5218101199e29ac94c4b397d28ecb015f1f4d26e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01dfaf8dea8aeb1de008979b32886feea0f9facd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExchangeMelina")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExchangeMelina")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

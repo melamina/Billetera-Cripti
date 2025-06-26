@@ -20,10 +20,31 @@ namespace ExchangeMelina.Controllers
         }
 
         // GET: Transaccions
-        public async Task<IActionResult> Index()
+        //public async Task<IActionResult> Index()
+        //{
+        //    var appDbContext = _context.Transacciones.Include(t => t.moneda);
+        //    return View(await appDbContext.ToListAsync());
+        //}
+
+        [HttpGet]
+        [Route("api/transacciones")]
+        public async Task<IActionResult> ObtenerTransacciones()
         {
-            var appDbContext = _context.Transacciones.Include(t => t.moneda);
-            return View(await appDbContext.ToListAsync());
+            var transacciones = await _context.Transacciones
+                .Include(t => t.moneda)
+                .ToListAsync();
+
+            var resultado = transacciones.Select(t => new
+            {
+                Id = t.Id,
+                Abreviatura = t.moneda != null ? t.moneda.Abreviatura : "N/A",
+                Action = t.Cotizacion >= 0 ? "purchase" : "sale", 
+                Cantidad = t.Cantidad,
+                Cotizacion = Math.Abs(t.Cotizacion), 
+                Fecha = t.Fecha
+            });
+
+            return Ok(resultado);
         }
 
         // GET: Transaccions/Details/5
@@ -53,18 +74,30 @@ namespace ExchangeMelina.Controllers
         }
 
         // POST: Transaccions/Create
+        //[HttpPost]
+       //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create([Bind("Id,MonedaId,Cantidad,Cotizacion,Fecha")] Transaccion transaccion)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        _context.Add(transaccion);
+        //        await _context.SaveChangesAsync();
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    ViewData["MonedaId"] = new SelectList(_context.Monedas, "Id", "Id", transaccion.MonedaId);
+        //    return View(transaccion);
+        //}
+
         [HttpPost]
-        //[ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,MonedaId,Cantidad,Cotizacion,Fecha")] Transaccion transaccion)
+        [Route("api/transaccion")]
+        public async Task<IActionResult> CrearTransaccion([FromBody] Transaccion transaccion)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(transaccion);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["MonedaId"] = new SelectList(_context.Monedas, "Id", "Id", transaccion.MonedaId);
-            return View(transaccion);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            _context.Add(transaccion);
+            await _context.SaveChangesAsync();
+            return Ok(new { mensaje = "Transacción registrada correctamente" });
         }
 
         // GET: Transaccions/Edit/5
